@@ -14,7 +14,7 @@ public class Main {
 		nstudents = sc.nextInt();
 		sc.nextLine();
 		Student[] students= new Student[nstudent];
-		//ArrayList studentArray = new ArrayList(nstudents);
+		ArrayList studentArray = new ArrayList(nstudents);
 		
 		for (int i = 0; i < nstudents; i++) {
 			System.out.print("Enter name: ");
