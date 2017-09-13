@@ -230,7 +230,7 @@ public interface StudentArrayOperation {
 	Student[] getNearBirthDate(Date date, int days);
 	
 
-	/**
+	/**if(
 	 * Find student at the specified position and calculate his age (total
 	 * years) if indexOfStudent == 0, method should throw
 	 * IllegalArgumentException
